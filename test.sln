@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RadioBookmark", "RadioBookmark.vcproj", "{41058C28-06A6-4783-8DB8-D56EB9F73420}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RadioBookmarkPS", "RadioBookmarkPS.vcproj", "{AC5A3208-FA2D-4AEB-BF22-58CDEB24AEDB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{41058C28-06A6-4783-8DB8-D56EB9F73420} = {41058C28-06A6-4783-8DB8-D56EB9F73420}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41058C28-06A6-4783-8DB8-D56EB9F73420}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41058C28-06A6-4783-8DB8-D56EB9F73420}.Debug|Win32.Build.0 = Debug|Win32
+		{41058C28-06A6-4783-8DB8-D56EB9F73420}.Release|Win32.ActiveCfg = Release|Win32
+		{41058C28-06A6-4783-8DB8-D56EB9F73420}.Release|Win32.Build.0 = Release|Win32
+		{AC5A3208-FA2D-4AEB-BF22-58CDEB24AEDB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC5A3208-FA2D-4AEB-BF22-58CDEB24AEDB}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
+
